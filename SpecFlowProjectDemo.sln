@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestSharpFamework", "RestSharpDemo\RestSharpFamework.csproj", "{1E936BEA-5BB2-4397-9DBC-427DE8C0CACE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RESTSharpTest", "APITest\RESTSharpTest.csproj", "{683C5333-D7CC-4BF4-858C-A4FF13FF67C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E936BEA-5BB2-4397-9DBC-427DE8C0CACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E936BEA-5BB2-4397-9DBC-427DE8C0CACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E936BEA-5BB2-4397-9DBC-427DE8C0CACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E936BEA-5BB2-4397-9DBC-427DE8C0CACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{683C5333-D7CC-4BF4-858C-A4FF13FF67C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683C5333-D7CC-4BF4-858C-A4FF13FF67C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683C5333-D7CC-4BF4-858C-A4FF13FF67C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683C5333-D7CC-4BF4-858C-A4FF13FF67C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90C46CB6-6820-4AAC-A355-48EAB0B6EA9C}
+	EndGlobalSection
+EndGlobal
