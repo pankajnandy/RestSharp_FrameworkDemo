@@ -20,23 +20,11 @@ namespace RestSharpDemo
         }
         public IRestResponse GetUsers()
         {
-            //var client = new RestClient("http://reqres.in/");
-            //var request = new RestRequest("/api/users?page=2", Method.GET);
-            //request.AddHeader("Accept", "application/json");
-            //request.AddHeader("Content-Type", "application/json");
-
-            //IRestResponse response = client.Execute(request);
-            //var content = response.Content;
-
-            //Users users = JsonConvert.DeserializeObject<Users>(content);
-            //return users;
-
-            var client = helper.SetUrl("api/users?page=2");
+            var client = helper.SetUrl("api/users");
             var request = helper.CreateGetRequest();
             request.AddHeader("Content-Type", "application/json");
-            //request.AddParameter("page", 2);
+            request.AddParameter("page", 2);
             var response = helper.GetResponse(client, request);
-            //var users = helper.GetContent<Users>(response);
             return response;
         }
 
@@ -47,7 +35,6 @@ namespace RestSharpDemo
             var request= helper.CreatePostRequest(jsonString);
 
             var response = helper.GetResponse(client, request);
-            //var createuser = helper.GetContent<CreateUserRes>(response);
             return response;
 
 
