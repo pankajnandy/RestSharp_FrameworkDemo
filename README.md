@@ -1,4 +1,4 @@
-# TechAssignment_RestSharp
+# Framework_RestSharp
 RestSharp Framework with SpecFlow
 
 I have created Tests using
